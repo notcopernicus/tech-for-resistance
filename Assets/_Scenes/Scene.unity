@@ -14,10 +14,17 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
+<<<<<<< HEAD
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.01
+=======
+  m_Fog: 1
+  m_FogColor: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.084
+>>>>>>> feature/gamplay-A
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -93,7 +100,11 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
+<<<<<<< HEAD
   m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+=======
+  m_LightingDataAsset: {fileID: 112000000, guid: 51eb7c6e6a34743c2a8a4fbab01a1409, type: 2}
+>>>>>>> feature/gamplay-A
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -259,6 +270,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+    - target: {fileID: -7511558181221131132, guid: ac33bc41ad2548c40be6abead6c0c63b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 03fe5683483ef4a908ae7fc459e81ffa, type: 2}
+>>>>>>> feature/gamplay-A
     - target: {fileID: 919132149155446097, guid: ac33bc41ad2548c40be6abead6c0c63b, type: 3}
       propertyPath: m_Name
       value: cable_0
@@ -320,6 +338,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+    - target: {fileID: -7511558181221131132, guid: ac33bc41ad2548c40be6abead6c0c63b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 03fe5683483ef4a908ae7fc459e81ffa, type: 2}
+>>>>>>> feature/gamplay-A
     - target: {fileID: 919132149155446097, guid: ac33bc41ad2548c40be6abead6c0c63b, type: 3}
       propertyPath: m_Name
       value: cable_6
@@ -892,6 +917,58 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0d7740f4e5905354fbbe8fb78d75ce92, type: 3}
   m_PrefabInstance: {fileID: 405646615}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+--- !u!1 &301033887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 301033889}
+  - component: {fileID: 301033888}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &301033888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301033887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.Volume
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 2113e14b2372542a997486aade311c9f, type: 2}
+--- !u!4 &301033889
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301033887}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.4656253, y: 2.0836375, z: 2.425328}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> feature/gamplay-A
 --- !u!4 &306069541 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ac33bc41ad2548c40be6abead6c0c63b, type: 3}
@@ -1880,6 +1957,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+    - target: {fileID: -7511558181221131132, guid: ac33bc41ad2548c40be6abead6c0c63b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 03fe5683483ef4a908ae7fc459e81ffa, type: 2}
+>>>>>>> feature/gamplay-A
     - target: {fileID: 919132149155446097, guid: ac33bc41ad2548c40be6abead6c0c63b, type: 3}
       propertyPath: m_Name
       value: cable_2
@@ -2116,6 +2200,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+    - target: {fileID: -7511558181221131132, guid: ac33bc41ad2548c40be6abead6c0c63b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 03fe5683483ef4a908ae7fc459e81ffa, type: 2}
+>>>>>>> feature/gamplay-A
     - target: {fileID: 919132149155446097, guid: ac33bc41ad2548c40be6abead6c0c63b, type: 3}
       propertyPath: m_Name
       value: cable_5
@@ -2359,6 +2450,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+    - target: {fileID: -7511558181221131132, guid: ac33bc41ad2548c40be6abead6c0c63b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 03fe5683483ef4a908ae7fc459e81ffa, type: 2}
+>>>>>>> feature/gamplay-A
     - target: {fileID: 919132149155446097, guid: ac33bc41ad2548c40be6abead6c0c63b, type: 3}
       propertyPath: m_Name
       value: cable_4
@@ -2430,6 +2528,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+    - target: {fileID: -7511558181221131132, guid: ac33bc41ad2548c40be6abead6c0c63b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 03fe5683483ef4a908ae7fc459e81ffa, type: 2}
+>>>>>>> feature/gamplay-A
     - target: {fileID: 919132149155446097, guid: ac33bc41ad2548c40be6abead6c0c63b, type: 3}
       propertyPath: m_Name
       value: cable_6
@@ -3032,6 +3137,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+    - target: {fileID: -7511558181221131132, guid: ac33bc41ad2548c40be6abead6c0c63b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 03fe5683483ef4a908ae7fc459e81ffa, type: 2}
+>>>>>>> feature/gamplay-A
     - target: {fileID: 919132149155446097, guid: ac33bc41ad2548c40be6abead6c0c63b, type: 3}
       propertyPath: m_Name
       value: cable_3
@@ -3486,7 +3598,10 @@ GameObject:
   - component: {fileID: 1063108883}
   - component: {fileID: 1063108882}
   - component: {fileID: 1063108881}
+<<<<<<< HEAD
   - component: {fileID: 1063108885}
+=======
+>>>>>>> feature/gamplay-A
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3606,12 +3721,17 @@ Transform:
   m_GameObject: {fileID: 1063108880}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 1, z: 0}
+=======
+  m_LocalPosition: {x: 0, y: 0.987, z: 0}
+>>>>>>> feature/gamplay-A
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1986700937}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &1063108885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3625,6 +3745,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::characterController
   sensitivity: 2
+=======
+>>>>>>> feature/gamplay-A
 --- !u!1001 &1093018843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4370,10 +4492,17 @@ Light:
   m_GameObject: {fileID: 1299262231}
   m_Enabled: 1
   serializedVersion: 12
+<<<<<<< HEAD
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
   m_Range: 10
+=======
+  m_Type: 2
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 5
+  m_Range: 100
+>>>>>>> feature/gamplay-A
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
@@ -4411,12 +4540,21 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
+<<<<<<< HEAD
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
+=======
+  m_Lightmapping: 2
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 3661
+  m_UseColorTemperature: 1
+>>>>>>> feature/gamplay-A
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
@@ -4435,7 +4573,11 @@ Transform:
   m_GameObject: {fileID: 1299262231}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 3, z: 0}
+=======
+  m_LocalPosition: {x: 0, y: 2.76, z: 4.85}
+>>>>>>> feature/gamplay-A
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4925,6 +5067,66 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.7182489, y: 1.1160536, z: 0.4433186}
   m_Center: {x: 0, y: -0.000000029802322, z: 0.22165981}
+<<<<<<< HEAD
+=======
+--- !u!1001 &1473760859
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 01e65b1ad671b354fae4fdd2794e2a3e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 01e65b1ad671b354fae4fdd2794e2a3e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.87
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 01e65b1ad671b354fae4fdd2794e2a3e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.8175764
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 01e65b1ad671b354fae4fdd2794e2a3e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 01e65b1ad671b354fae4fdd2794e2a3e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 01e65b1ad671b354fae4fdd2794e2a3e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 01e65b1ad671b354fae4fdd2794e2a3e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 01e65b1ad671b354fae4fdd2794e2a3e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 01e65b1ad671b354fae4fdd2794e2a3e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 01e65b1ad671b354fae4fdd2794e2a3e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 01e65b1ad671b354fae4fdd2794e2a3e, type: 3}
+      propertyPath: m_Name
+      value: ceiling_light
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 01e65b1ad671b354fae4fdd2794e2a3e, type: 3}
+>>>>>>> feature/gamplay-A
 --- !u!4 &1510573830 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ac33bc41ad2548c40be6abead6c0c63b, type: 3}
@@ -5161,6 +5363,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+    - target: {fileID: -7511558181221131132, guid: ac33bc41ad2548c40be6abead6c0c63b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 03fe5683483ef4a908ae7fc459e81ffa, type: 2}
+>>>>>>> feature/gamplay-A
     - target: {fileID: 919132149155446097, guid: ac33bc41ad2548c40be6abead6c0c63b, type: 3}
       propertyPath: m_Name
       value: cable_1
@@ -7046,7 +7255,11 @@ GameObject:
   - component: {fileID: 1986700936}
   - component: {fileID: 1986700935}
   - component: {fileID: 1986700932}
+<<<<<<< HEAD
   - component: {fileID: 1986700938}
+=======
+  - component: {fileID: 1986700941}
+>>>>>>> feature/gamplay-A
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -7078,7 +7291,11 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
+<<<<<<< HEAD
   m_Center: {x: 0, y: 1, z: 0}
+=======
+  m_Center: {x: 0, y: 0, z: 0}
+>>>>>>> feature/gamplay-A
 --- !u!23 &1986700935
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7145,14 +7362,22 @@ Transform:
   m_GameObject: {fileID: 1986700931}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 1, z: 1.9}
+=======
+  m_LocalPosition: {x: 0, y: 2, z: 1.9}
+>>>>>>> feature/gamplay-A
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1063108884}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &1986700938
+=======
+--- !u!114 &1986700941
+>>>>>>> feature/gamplay-A
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7167,7 +7392,11 @@ MonoBehaviour:
   controller: {fileID: 1986700932}
   cameraTransform: {fileID: 1063108884}
   walkSpeed: 5
+<<<<<<< HEAD
   sensitivity: 2
+=======
+  mouseSensitivity: 2
+>>>>>>> feature/gamplay-A
   gravity: -9.81
 --- !u!1001 &1988598706
 PrefabInstance:
@@ -7807,6 +8036,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+    - target: {fileID: -7511558181221131132, guid: ac33bc41ad2548c40be6abead6c0c63b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 03fe5683483ef4a908ae7fc459e81ffa, type: 2}
+>>>>>>> feature/gamplay-A
     - target: {fileID: 919132149155446097, guid: ac33bc41ad2548c40be6abead6c0c63b, type: 3}
       propertyPath: m_Name
       value: cable_7
@@ -8025,9 +8261,18 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1299262234}
+<<<<<<< HEAD
+=======
+  - {fileID: 1986700937}
+>>>>>>> feature/gamplay-A
   - {fileID: 1273519883}
   - {fileID: 1226769587}
   - {fileID: 1178613443}
   - {fileID: 2069482325}
   - {fileID: 171329814}
+<<<<<<< HEAD
   - {fileID: 1986700937}
+=======
+  - {fileID: 301033889}
+  - {fileID: 1473760859}
+>>>>>>> feature/gamplay-A
