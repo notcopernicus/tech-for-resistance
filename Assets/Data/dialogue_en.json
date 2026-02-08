@@ -1,0 +1,66 @@
+
+{
+  "scenarioId": "cable_cleanup_mvp",
+  "startNodeId": "node1_equity_open",
+  "nodes": [
+    {
+      "id": "node1_equity_open",
+      "speaker": "Supervisor",
+      "subtitle": "Are you sure you’ve handled something like this before? We usually have someone more experienced take the lead.",
+      "choices": [
+        {
+          "id": "choice1_advocate_document",
+          "text": "I’ve handled cable organization before. I’ll follow proper procedures.",
+          "tags": ["calm", "self_advocacy", "professional"],
+          "impact": { "communication": 2, "confidence": 1, "equity": 2 },
+          "noteToPlayer": "After the task: Pause, Advocate, and Privately Document what happened(date/time/what happened).",
+          "next": "n2_task_steps"
+        },
+        {
+          "id": "choice2_defer_no_document",
+          "text": "I can just straighten things quickly if that’s better.",
+          "tags": ["defer", "low_confidence"],
+          "impact": { "communication": -1, "confidence": -1, "equity": 0 },
+          "noteToPlayer": "You may finish the task, but you missed a chance to set boundaries.",
+          "next": "n2_task_steps"
+        }
+      ]
+    },
+
+    {
+      "id": "node2_task_steps",
+      "type": "system",
+      "subtitle": "Cable Cleanup Checklist (MVP): Step 1) Identify SAFE cables. Step 2) Group cables (data vs power). Step 3) Add labels to both ends.",
+      "next": "n3_supervisor_followup"
+    },
+
+    {
+      "id": "node3_supervisor_followup",
+      "speaker": "Supervisor",
+      "subtitle": "Give me a quick update. What did you do, and what’s next?",
+      "choices": [
+        {
+          "id": "choice1_clear_update",
+          "text": "I identified safe cables, grouped power and data separately, and labeled both ends. Next I’ll do a final check to make sure nothing is strained.",
+          "tags": ["clear_update", "next_step", "ownership"],
+          "impact": { "communication": 2, "confidence": 1 },
+          "next": "n4_end_reflection"
+        },
+        {
+          "id": "choice2_vague_update",
+          "text": "I cleaned it up. It should be good now.",
+          "tags": ["vague", "no_next_step"],
+          "impact": { "communication": -1, "confidence": 0 },
+          "next": "n4_end_reflection"
+        }
+      ]
+    },
+
+    {
+      "id": "node4_end_reflection",
+      "type": "system",
+      "subtitle": "Scenario complete. Reflection: clear updates include (1) what you did, (2) current status, and (3) the next step. If you experienced bias, document it privately after.",
+      "next": null
+    }
+  ]
+}
