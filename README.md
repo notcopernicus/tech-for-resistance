@@ -4,7 +4,7 @@ K-Shaped: The Bridge is a Unity-powered web game that trains Black and Brown wor
 
 ---
 
-## Problem
+### Problem
 
 We are living in a **K-shaped economy**:  
 while wealth accelerates upward for some, historically marginalized communities remain locked in the lower arm due to **high barriers to entry** in emerging technical jobs.
@@ -16,7 +16,7 @@ For roles like data center technicians:
 
 This lack of access directly reinforces the racial wealth gap.
 
-## Solution
+### Solution
 
 We built a **3D WebGL simulation** that:
 
@@ -26,16 +26,16 @@ We built a **3D WebGL simulation** that:
 
 If you have a Chromebook, you have access.
 
-## Gameplay Overview
+### Gameplay Overview
 
 The MVP focuses on two core scenarios commonly faced by data center technicians:
 
-### Cable Management
+Cable Management
 - Power vs data cables
 - Proper routing and organization
 - Performance and safety implications
 
-### Thermal Regulation
+Thermal Regulation
 - Overheating servers
 - Hot aisle / cold aisle concepts
 - Environmental problem-solving under pressure
@@ -47,7 +47,7 @@ The simulation intentionally “fakes” complex physics using:
 
 This keeps the experience accessible, fast, and human-centered.
 
-## Target Audience
+### Target Audience
 
 - **End Users:** Black & Brown workers  
 
@@ -59,11 +59,10 @@ This keeps the experience accessible, fast, and human-centered.
   - Cloud Infrastructure  
   - Medical / Automotive / Aerospace technical roles
 
-## Tech Stack
-
+### Tech Stack
 - **Unity** (C#)
 - **Unity WebGL**
-- **JSON** (
+- **JSON** 
 - **GitHub**
 - **Typescript**
 
@@ -73,8 +72,7 @@ Future iterations:
 - Backend session logging & analytics
 
 
-## System Design 
-
+### System Design 
 - **Access over realism**: playable > perfect physics
 - **Modular architecture** for sustainability
 - **Human-centered design** over technical intimidation
