@@ -1,6 +1,6 @@
 # K-Shaped: 3D Workforce development simulation for historically marginalized communities
 
-K-Shaped: The Bridge is a Unity-powered web game that trains Black and Brown workers for high-salary, high-barrier technical roles—starting with **data center technicians**—by providing safe, accessible “technical flight hours” and high-stakes communication practice.
+K-Shaped: The Bridge is a Unity-powered web game that trains Black and Brown workers for high-salary, high-barrier technical roles—starting with **data center technicians**—by providing safe, accessible technical training and high-stakes communication practice.
 
 ---
 
